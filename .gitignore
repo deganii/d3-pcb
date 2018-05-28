@@ -1,0 +1,24 @@
+
+#############
+## Solidworks
+#############
+
+# Ignore the temp files
+
+
+~$*.sldprt
+~$*.sldasm
+
+
+#############
+## Eagle
+#############
+
+# Ignore the board and schematic backup files and lock files
+
+*.b#?
+*.s#?
+*.l#?
+*.lck
+*_??.job
+*_??.pro
